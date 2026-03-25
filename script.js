@@ -11,11 +11,7 @@ let playlist = [];
 let currentIndex = -1;
 
 const coverImages = [
-    'cover1.jpg',
-    'cover2.jpg',
-    'cover3.jpg',
-    'cover4.jpg',
-    'cover5.jpg'
+    './assets/default-cover.png'
 ];
 
 function handleFiles(files) {
@@ -28,7 +24,7 @@ function handleFiles(files) {
         const song = {
             name: fileName,
             url: url,
-            cover: "default-cover.jpg"
+            cover: "default-cover.png"
         };
         playlist.push(song);
     }
@@ -56,7 +52,7 @@ function loadTrack(index) {
     coverImage.style.display = 'block';
 
     coverImage.onerror = () => {
-        coverImage.src = 'default-cover.jpg';
+        coverImage.src = 'default-cover.png';
     }
 
     isPlaying = false;
