@@ -6,9 +6,9 @@ A cozy, pixel-art inspired music player built with Electron. Sit by the campfire
 
 03-24-2026
 
-![Bard's Song Screenshot](bards-song/assets/screenshot-no-music.png)
+![Bard's Song Screenshot](./assets/screenshot-no-music.png)
 
-![Bard's Song Screenshot with Music Playing](bards-song/assets/screenshot-w-default-cover.png)
+![Bard's Song Screenshot with Music Playing](./assets/screenshot-w-default-cover.png)
 
 Inspiration
 
