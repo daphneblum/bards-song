@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bard's Song</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title-bar">
+        <div class="drag-region">Bard's Song</div>
+        <div class = "window-controls">
+            <button class="window-control-button" id="minimize-button">-</button>
+            <button class="window-control-button" id="close-button">X</button>
+        </div>
+    </div>
+    <div class="player-container">
+        <div class="frame">
+            <div class="screen" id="dropArea">
+                <img src="./assets/campfire.png" alt="Campfire image" class="cover-image" id="coverImage"/>
+                <p class="song-title">Drag and drop your music files here to play</p>
+                <div class="controls">
+                    <button id="previous-button">Previous</button> <!-- FIXME: Replace with actual play button -->
+                    <button id="play-pause-button">Play</button> <!-- FIXME: Replace with actual previous button -->
+                    <button id="next-button">Next</button> <!-- FIXME: Replace with actual next button -->
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+            </div>
+            <input type="file" id="fileInput" accept="audio/*" multiple style="display: none;"/>
+            <audio id="audio"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

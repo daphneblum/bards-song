@@ -1,0 +1,26 @@
+{
+  "name": "bards-song",
+  "version": "1.0.0",
+  "description": "A music player for your study adventure.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daphneblum/bards-song.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/daphneblum/bards-song/issues"
+  },
+  "homepage": "https://github.com/daphneblum/bards-song#readme",
+  "devDependencies": {
+    "electron": "^41.0.3",
+    "electron-builder": "^26.8.1"
+  }
+}
